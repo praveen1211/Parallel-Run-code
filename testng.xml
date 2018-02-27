@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="parallel">
+      <parameter name="deviceName1" value="emulator-5554"/>
+		<parameter name="platformVersion" value="4.4.2"/>
+		<parameter name="URL1" value="127.0.0.1:4723/wd/hub"/>
+		 <classes>
+      <class name="sample2.parallel"/>
+    </classes>
+	</test> <!--parallel-->
+	<test name="parallel1">
+		<parameter name="deviceName1" value="emulator-5556"/>
+		<parameter name="platformVersion" value="7.0"/>
+		<parameter name="URL1" value="127.0.0.2:4724/wd/hub"/>
+    <classes>
+      <class name="sample2.parallel"/>
+    </classes>
+  </test> <!-- parallel 1-->
+</suite> <!-- Suite -->

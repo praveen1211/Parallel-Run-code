@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="deviceName1" value="emulator-5556"/>
+  <parameter name="URL1" value="127.0.0.2:4724/wd/hub"/>
+  <parameter name="platformVersion" value="7.0"/>
+  <test name="parallel(failed)" parallel="tests">
+    <parameter name="deviceName1" value="emulator-5554"/>
+    <parameter name="URL1" value="127.0.0.1:4723/wd/hub"/>
+    <parameter name="platformVersion" value="4.4.2"/>
+    <classes>
+      <class name="sample2.parallel">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="run"/>
+        </methods>
+      </class> <!-- sample2.parallel -->
+    </classes>
+  </test> <!-- parallel(failed) -->
+</suite> <!-- Failed suite [Suite] -->

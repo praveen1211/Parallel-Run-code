@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65427" started-at="2018-02-23T14:29:29Z" finished-at="2018-02-23T14:30:34Z">
+    <groups>
+    </groups>
+    <test name="parallel" duration-ms="17007" started-at="2018-02-23T14:29:29Z" finished-at="2018-02-23T14:29:46Z">
+      <class name="sample2.parallel">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sample2.parallel@4bec1f0c]" name="beforeMethod" is-config="true" duration-ms="15706" started-at="2018-02-23T19:59:29Z" finished-at="2018-02-23T19:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.4.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="run()[pri:0, instance:sample2.parallel@4bec1f0c]" name="run" duration-ms="5" started-at="2018-02-23T19:59:44Z" finished-at="2018-02-23T19:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="f()[pri:0, instance:sample2.parallel@4bec1f0c]" name="f" is-config="true" duration-ms="1285" started-at="2018-02-23T19:59:44Z" finished-at="2018-02-23T19:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- sample2.parallel -->
+    </test> <!-- parallel -->
+    <test name="parallel1" duration-ms="65427" started-at="2018-02-23T14:29:29Z" finished-at="2018-02-23T14:30:34Z">
+      <class name="sample2.parallel">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sample2.parallel@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="55418" started-at="2018-02-23T19:59:29Z" finished-at="2018-02-23T20:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.2:4724/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="run()[pri:0, instance:sample2.parallel@5abca1e0]" name="run" duration-ms="3" started-at="2018-02-23T20:00:24Z" finished-at="2018-02-23T20:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="f()[pri:0, instance:sample2.parallel@5abca1e0]" name="f" is-config="true" duration-ms="9996" started-at="2018-02-23T20:00:24Z" finished-at="2018-02-23T20:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- sample2.parallel -->
+    </test> <!-- parallel1 -->
+  </suite> <!-- Suite -->
+</testng-results>
